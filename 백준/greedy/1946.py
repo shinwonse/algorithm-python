@@ -13,7 +13,7 @@ for _ in range(t):
     min = lst[0][1]
 
     for i in range(1, n):
-        if lst[i][1] < min:
+        if lst[i][1] < min:  # 여태 지나온 지원자들의 면접시험 성적 중 가장 좋은 면접시험 성적을 저장한다
             min = lst[i][1]
             cnt += 1
     print(cnt)
