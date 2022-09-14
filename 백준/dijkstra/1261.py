@@ -20,7 +20,7 @@ while q:
     x, y = q.popleft()
     for i in range(4):
         nx, ny = x + dx[i], y + dy[i]
-        if 0 <= nx < m and ny >= 0 and ny < n:
+        if 0 <= nx < m and 0 <= ny < n:
             if dist[nx][ny] == -1:
                 if a[nx][ny] == "0":
                     q.appendleft([nx, ny])
