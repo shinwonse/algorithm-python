@@ -91,11 +91,14 @@ class LinkedList:
                 pointer = pointer.next
         return False
 
+    # 이터레이터 객체로 만들기
+    # __iter__ 메서드를 가지고 있는지 확인하기
     def __iter__(self):
         self.current = self.head
         return self
 
     def __next__(self):
+        # 오류 발생
         if self.current is None:
             raise StopIteration
         else:
