@@ -6,7 +6,7 @@ input = sys.stdin.readline
 N = int(input())
 lecture_list = []
 for _ in range(N):
-    start, end = map(int,input().split())
+    start, end = map(int, input().split())
     lecture_list.append((start, end))
 lecture_list.sort()
 
