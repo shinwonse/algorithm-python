@@ -27,7 +27,8 @@ while left:
         cur += h
     if left:  # 일부만 실을 수 있는 경우
         left[0][1] -= K - cur
-        curr = 0
+        cur = 0
+
 cur = 0
 while right:
     answer += right[0][0] * 2
