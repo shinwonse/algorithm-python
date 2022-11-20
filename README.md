@@ -3,4 +3,5 @@
 ## 다시 풀어볼 문제 모음
 ### 백트래킹
 - [1182](https://www.acmicpc.net/problem/1182) 부분수열의 합
+- [9663](https://www.acmicpc.net/problem/9663) N-Queen
 - [14889](https://www.acmicpc.net/problem/14889) 스타트와 링크
